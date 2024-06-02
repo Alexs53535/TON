@@ -46,6 +46,27 @@
     align-items: center;
     gap: 33px;
   }
+.header__link-site-conteiner{
+  position: relative;
+}
+.header_img::after{
+  content: url(./img/header_im.png);
+  position: absolute;
+  display: block;
+  top: 0px;
+  width: 50px;
+  padding: 12px 0px 0px 22px; 
+}
+
+.Header_five{
+  content: url(./img/FiveBasket.png);
+  position: absolute;
+  display: block;
+  top: 0px;
+  width: 7px;
+  padding: 15px 0px 0px 26px;
+}
+
 
   
   .menu {
@@ -330,17 +351,20 @@
   color: #FBFBFB;
 }
 
-.cent{
+.cent {
   position: relative;
+  background-image: url(./img/bottom1.jpg);
+  padding: 118px;
 }
-.foto1{
-  margin-top: -300px;
-  /* align-items: center;
-  justify-content: center; */
+.fotoOne {
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
 }
-.foto2{
-  display: flow-root;
-  align-items: start;
+.fotoTwo {
+  align-items: center;
+  justify-content: center;
+  padding-left: 900px;
 }
 
 .center {
